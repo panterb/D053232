@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for ZXE2_C_GADGETS
+{
+  use create;
+  use update;
+  use delete;
+}

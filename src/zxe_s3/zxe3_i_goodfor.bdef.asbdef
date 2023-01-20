@@ -1,0 +1,20 @@
+managed implementation in class zbp_xe3_i_goodfor unique;
+strict ( 2 );
+
+define behavior for ZXE3_I_GOODFOR alias GoodFor
+persistent table zxe3_goodfor
+lock master
+authorization master ( instance )
+{
+  create;
+  update;
+  delete;
+  field ( readonly : update ) Werks, ProducedPro, GoodforPro;
+  mapping for zxe3_goodfor
+    {
+      Werks         = werks;
+      ProducedPro   = produced_pro;
+      GoodforPro    = goodfor_pro;
+      Priority      = priority;
+    }
+ }

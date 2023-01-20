@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for File Upload'
+define service ZXE2_SD_FILES {
+  expose ZXE2_C_FILES as Files;
+}

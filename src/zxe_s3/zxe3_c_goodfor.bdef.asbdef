@@ -1,0 +1,9 @@
+projection;
+strict ( 2 );
+
+define behavior for ZXE3_C_GOODFOR alias GoodFor
+{
+  use create;
+  use update;
+  use delete;
+}

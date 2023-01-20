@@ -1,0 +1,17 @@
+managed implementation in class zbp_xe2_i_gadgets unique;
+strict ( 2 );
+
+define behavior for ZXE2_I_GADGETS alias gadgets_shop
+persistent table zxe2_gadgets
+lock master
+authorization master ( instance )
+{
+  field ( numbering : managed, readonly ) Order_Uuid;
+  field ( readonly ) Order_Id, Creationdate;
+  field ( mandatory ) OrderedItem;
+  determination calculate_order_id on modify { create; }
+  validation validate_delivery_date on save { create; update; }
+  create;
+  update;
+  delete;
+}

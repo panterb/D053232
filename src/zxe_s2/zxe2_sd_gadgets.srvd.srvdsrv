@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for Gadgets Shop'
+define service ZXE2_SD_GADGETS {
+  expose ZXE2_C_GADGETS as Gadgets;
+}

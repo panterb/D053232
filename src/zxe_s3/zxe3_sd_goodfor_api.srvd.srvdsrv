@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for GoodFor API'
+define service ZXE3_SD_GOODFOR_API {
+  expose ZXE3_A_GOODFOR as GoodFor;
+}

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZXE2_GADGETS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Gadgets Shop Message Class</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZXE2_GADGETS</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>The MS Excel file has been processed by the application job.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZXE2_GADGETS</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>The delivery date is a holiday.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZXE2_GADGETS</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>The delivery date is empty.</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>
